@@ -1,3 +1,5 @@
+This is a reproduction of an issue I've run into in nitro v3 when I try to respond with a compressed payload. I have tested it in h3 v1, h3 v2, nitro v2 and nitro v3, all using just about the same method of returning a compressed payload (only the method for getting and setting the headers as well as the routing is different) and only in the latest alpha (1) of nitro v3 does it fail to be properly decoded on the client side. This is either because I am misusing the library or a possible regression from nitro v2 to nitro v3.
+
 All examples serve the result to http://localhost:3000
 
 Expected response is a JSON payload;
