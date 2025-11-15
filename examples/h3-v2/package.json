@@ -1,0 +1,11 @@
+{
+  "name": "h3js-v2-compressed-payload",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch ./server.mjs"
+  },
+  "dependencies": {
+    "h3": "2.0.1-rc.5"
+  }
+}

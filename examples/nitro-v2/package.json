@@ -1,0 +1,9 @@
+{
+  "name": "nitro-v2-compressed-payload",
+  "scripts": {
+    "dev": "nitro dev"
+  },
+  "dependencies": {
+    "nitropack": "2.12.9"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "nitro-v3-compressed-payload",
+  "scripts": {
+    "dev": "nitro dev"
+  },
+  "dependencies": {
+    "nitro": "3.0.1-alpha.1",
+    "vite": "7.2.2"
+  }
+}
